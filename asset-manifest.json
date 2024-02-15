@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/React-e-commerce/static/css/main.f855e6bc.css",
-    "main.js": "/React-e-commerce/static/js/main.53c557c2.js",
-    "static/js/592.3eab0485.chunk.js": "/React-e-commerce/static/js/592.3eab0485.chunk.js",
+    "main.css": "/React-e-commerce/static/css/main.e5f7ac8d.css",
+    "main.js": "/React-e-commerce/static/js/main.aa38a869.js",
+    "static/media/slick.svg": "/React-e-commerce/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/React-e-commerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/React-e-commerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/React-e-commerce/index.html",
-    "main.f855e6bc.css.map": "/React-e-commerce/static/css/main.f855e6bc.css.map",
-    "main.53c557c2.js.map": "/React-e-commerce/static/js/main.53c557c2.js.map",
-    "592.3eab0485.chunk.js.map": "/React-e-commerce/static/js/592.3eab0485.chunk.js.map"
+    "static/media/slick.woff": "/React-e-commerce/static/media/slick.295183786cd8a1389865.woff",
+    "main.e5f7ac8d.css.map": "/React-e-commerce/static/css/main.e5f7ac8d.css.map",
+    "main.aa38a869.js.map": "/React-e-commerce/static/js/main.aa38a869.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.53c557c2.js"
+    "static/css/main.e5f7ac8d.css",
+    "static/js/main.aa38a869.js"
   ]
 }
