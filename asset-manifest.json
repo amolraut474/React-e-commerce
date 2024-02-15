@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-e-commerce/static/css/main.e5f7ac8d.css",
-    "main.js": "/React-e-commerce/static/js/main.aa38a869.js",
+    "main.css": "/React-e-commerce/static/css/main.c1f34733.css",
+    "main.js": "/React-e-commerce/static/js/main.a6f40e98.js",
     "static/media/slick.svg": "/React-e-commerce/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/React-e-commerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/React-e-commerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/React-e-commerce/index.html",
     "static/media/slick.woff": "/React-e-commerce/static/media/slick.295183786cd8a1389865.woff",
-    "main.e5f7ac8d.css.map": "/React-e-commerce/static/css/main.e5f7ac8d.css.map",
-    "main.aa38a869.js.map": "/React-e-commerce/static/js/main.aa38a869.js.map"
+    "main.c1f34733.css.map": "/React-e-commerce/static/css/main.c1f34733.css.map",
+    "main.a6f40e98.js.map": "/React-e-commerce/static/js/main.a6f40e98.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5f7ac8d.css",
-    "static/js/main.aa38a869.js"
+    "static/css/main.c1f34733.css",
+    "static/js/main.a6f40e98.js"
   ]
 }
