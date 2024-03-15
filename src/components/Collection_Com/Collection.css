@@ -1,0 +1,63 @@
+.collection_part1 {
+    background-image: url("../images/furniture_banner1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 34px;
+}
+.collection_part2 {
+    background-image: url('../images/furniture_banner2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 34px;
+}
+.collection_section {
+    padding: 50px 0px 80px 0px;
+}
+.collection_section .banner-btn {
+    padding: 0;
+    border: none;
+    border-radius: 0px;
+    text-decoration: underline;
+    color: #292b2c;
+}
+.collection_section .banner-btn:hover{
+    color: #FF324D;
+    background-color: transparent;
+}
+.collection_section h3 .heading_s3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.collection_section h2 {
+    font-size: 20px;
+    color: #292b2c;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+@media (max-width: 425px){
+    .collection_part1{
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    .collection_part2{
+    margin-top: 20px;
+    height: 100%;
+    }
+    .collection_section {
+        padding: 20px 0px 80px 0px;
+    }
+}

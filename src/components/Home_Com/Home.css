@@ -1,0 +1,204 @@
+
+.slide-1 {
+    background: url("../images/banner8.jpg") no-repeat center center / cover;
+    min-height: 650px;
+    display: flex !important;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+  
+  .slide-2 {
+    background: url("../images/banner9.jpg") no-repeat center center / cover;
+    min-height: 650px;
+    display: flex !important;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+  
+  .slide-3 {
+    background: url("../images/banner7.jpg") no-repeat center center / cover;
+    min-height: 650px;
+    display: flex !important;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+  
+  button.slick-arrow.slick-prev {
+    display: none !important;
+  }
+  
+  button.slick-arrow.slick-next {
+    display: none !important;
+  }
+  
+  .banner_content2 {
+    text-align: left;
+  }
+  
+  h5.banner-heading {
+    color: #292b2c;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+  }
+  
+  h2.banner-sub-heading {
+    font-size: 70px;
+    color: #292b2c;
+    font-family: 'Roboto';
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 10px 0px 30px 0px;
+  }
+  
+  a.banner-btn {
+    border: 1px solid #FF324D;
+    color: #FF324D;
+    font-size: 18px;
+    padding: 11px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+  
+  }
+  
+  .banner-btn:hover {
+    background-color: #FF324D;
+    color: #fff;
+  
+  }
+  
+  .slick-dots {
+    bottom: 13px !important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    border: 2px solid #FF324D;
+    color: #FF324D !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    opacity: 2.75 !important;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px !important;
+    width: 19px !important;
+    height: 19px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slick-dots li button {
+    width: 19px !important;
+    height: 19px !important;
+  }
+  
+  .slick-dots li button:before {
+    border: 2px solid #333;
+    color: #333 !important;
+    border-radius: 14px;
+    opacity: 0.75 !important;
+  }
+
+/* card comp css */
+  .card-section{
+    padding: 70px 0px;
+  }
+  .card-icon-c{
+    font-size: 36px;
+    color: #ff5f53;
+  }
+  .card-title{
+    color: #292b2c;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .Custom_Card p {
+    color: #687188;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+   
+}
+.Custom_Card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-right: 1px solid #dddddd;
+  padding: 25px;
+}
+.row-border-custom{
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.Custom_Card:nth-child(1) {
+  border-left: 1px solid #dddddd;
+}
+
+.banner-slider-section {
+  margin-top: 75px;
+}
+.site-logo {
+  width: 100%;
+  max-width: 200px;
+}
+
+  /* Responshive css for mobile */
+  @media (max-width:425px) {
+    .Ann-col-mobile {
+      justify-content: center !important;
+    }
+  
+    .section-1 .navbar-collapse {
+      flex-basis: 100% !important;
+      flex-grow: 0;
+      text-align: left;
+      padding-top: 15px;
+  
+    }
+  
+    .slide-1,
+    .slide-2,
+    .slide-3 {
+      min-height: 400px !important;
+    }
+  
+    h2.banner-sub-heading {
+      font-size: 30px;
+    }
+  
+    h5.banner-heading {
+      padding: 0;
+      font-size: 20px;
+  
+    }
+  
+    .banner_content2 {
+      padding: 35px 10px;
+    }
+    .card-section {
+      padding: 40px 10px;
+  }
+  .row-border-custom{
+    border: none !important;
+  }
+  .Custom_Card:nth-child(1){
+    border:1px solid #dddddd;
+  }
+  .Custom_Card{
+  border:1px solid #dddddd;
+  flex-direction: column;
+  gap: 0;
+  }
+  
+   
+  }
